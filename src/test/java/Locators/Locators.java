@@ -30,6 +30,7 @@ public class Locators
 
     }
 
+
     @Test
     public void Locators() throws InterruptedException
     {
@@ -77,9 +78,28 @@ public class Locators
         //Diferencias: el XPath absoluto es toda la ruta/ubicacion del elemento, su sintaxis inicia con una diagonal
 
         // ------XPath absoluto
-        WebElement  userName = driver.findElement(By.xpath("/html/body/div[2]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[3]/form/table/tbody/tr[4]/td/table/tbody/tr[2]/td[2]/input"));
+        /*WebElement  userName = driver.findElement(By.xpath("/html/body/div[2]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[3]/form/table/tbody/tr[4]/td/table/tbody/tr[2]/td[2]/input"));
         userName.sendKeys("locura");
-        Thread.sleep(3000);
+        Thread.sleep(3000);*/
+
+        //------XPath relativo
+        //El uso de XPath relativo, inicio con doble "//" (diagonal y/o slash)
+        //El uso de XPath relativo se realiza por medio de los tags y atributos (tags = span, img, button, input, etc...)
+
+        //1. Un solo atributo
+        /*WebElement userName = driver.findElement(By.xpath("//input[@name='userName']"));
+        userName.sendKeys("REGISTRO");
+        Thread.sleep(3000);*/
+
+        //2. Dos atributos
+        /*WebElement demoSite = driver.findElement(By.xpath("a[@title='Home' and @style='font-size:32px;']"));
+        demoSite.click();
+        Thread.sleep(3000);*/
+
+        //3. Usando "*" o "tag" (el asterisco en lenguaje informatico significa totalidad) + la palabra "contains" (contiene) y el atributo
+        /*WebElement demoSite = driver.findElement(By.xpath("//*[contains(text(), 'Demo Site')]"));
+        demoSite.click();
+        Thread.sleep(3000);*/
 
     }
 
