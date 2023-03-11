@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecd1a3b2-a84c-47f0-bcad-ed4ea8088259" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Interacciones/Interacciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium_Basic/CheckBox_y_RadioButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium_Basic/DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium_Basic/Drag_and_Drop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Selenium_Basic/Scroll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Locators/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Locators/Locators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +55,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Language Defaults&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.DropDown.DropDownWithClassSelect">
-    <configuration name="DropDown" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Scroll.Scroll">
+    <configuration name="Drag_and_Drop" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTraining" />
       <extension name="coverage">
         <pattern>
@@ -67,7 +65,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Selenium_Basic" />
-      <option name="MAIN_CLASS_NAME" value="Selenium_Basic.DropDown" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Basic.Drag_and_Drop" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -75,7 +73,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropDown.DropDownList (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Drag_and_Drop.DragAndDropActions" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTraining" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +82,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Selenium_Basic" />
-      <option name="MAIN_CLASS_NAME" value="Selenium_Basic.DropDown" />
-      <option name="METHOD_NAME" value="DropDownList" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Basic.Drag_and_Drop" />
+      <option name="METHOD_NAME" value="DragAndDropActions" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -93,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropDown.DropDownList (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Drag_and_Drop.DragAndDropIFrame" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTraining" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +100,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Selenium_Basic" />
-      <option name="MAIN_CLASS_NAME" value="Selenium_Basic.DropDown" />
-      <option name="METHOD_NAME" value="DropDownList" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Basic.Drag_and_Drop" />
+      <option name="METHOD_NAME" value="DragAndDropIFrame" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,7 +109,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropDown.DropDownWithClassSelect" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Scroll" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTraining" />
       <extension name="coverage">
         <pattern>
@@ -120,16 +118,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Selenium_Basic" />
-      <option name="MAIN_CLASS_NAME" value="Selenium_Basic.DropDown" />
-      <option name="METHOD_NAME" value="DropDownWithClassSelect" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Basic.Scroll" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropDown.DropDownWithSendKeys" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Scroll.Scroll" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTraining" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +135,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Selenium_Basic" />
-      <option name="MAIN_CLASS_NAME" value="Selenium_Basic.DropDown" />
-      <option name="METHOD_NAME" value="DropDownWithSendKeys" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Basic.Scroll" />
+      <option name="METHOD_NAME" value="Scroll" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DropDown.DropDownWithClassSelect" />
-        <item itemvalue="TestNG.DropDown" />
-        <item itemvalue="TestNG.DropDown.DropDownWithSendKeys" />
-        <item itemvalue="TestNG.DropDown.DropDownList (1)" />
-        <item itemvalue="TestNG.DropDown.DropDownList (3)" />
+        <item itemvalue="TestNG.Scroll.Scroll" />
+        <item itemvalue="TestNG.Scroll" />
+        <item itemvalue="TestNG.Drag_and_Drop.DragAndDropIFrame" />
+        <item itemvalue="TestNG.Drag_and_Drop.DragAndDropActions" />
+        <item itemvalue="TestNG.Drag_and_Drop" />
       </list>
     </recent_temporary>
   </component>
